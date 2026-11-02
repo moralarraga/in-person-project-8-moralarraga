@@ -5,27 +5,53 @@
 
 :root {
   /* Color System - TODO: Add more color variations */
-  --color-primary: #667eea;
-  --color-primary-dark: #5a67d8;
-  --color-text-primary: #2d3748;
-  --color-background: #ffffff;
-  --color-surface: #f7fafc;
+  --color-primary: #463181;
+  --color-primary-dark: #082674;
+  --color-secondary: #0f4456;
+  --color-accent: #7c679e;
+
+  --color-text-primary: #c8c793;
+  --color-text-secondary: #9681d9;
+
+  --color-background: #3365ca;
+  --color-surface: #2c7b91;
+  --color-border: #24201a;
 
   /* Spacing System - TODO: Use consistently throughout */
+  --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /*Typography */
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 2rem;
 
   /* Animation Timing - TODO: Add more timing variations */
+  --transition-fast: 150ms;
   --transition-base: 250ms;
+  --transition-slow: 350ms;
+  --transition-slower: 500ms;
+
   --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0.0,0,0.2,1);
+  --ease-in: cubic-bezier(0.4,0,1,1);
+  --ease-bounce: cubic-bezier(0.68,-0.55,0.265,1.55);
+
 }
 
 /* Dark Theme - TODO: Complete dark theme variables */
 [data-theme="dark"] {
-  --color-text-primary: #f7fafc;
-  --color-background: #1a202c;
-  --color-surface: #2d3748;
+  --color-text-primary: #c8c793;
+  --color-text-secondary: #bddedd;
+  --color-background: #463181;
+  --color-surface: #082674;
 }
 
 /* ==========================================
